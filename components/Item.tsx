@@ -83,6 +83,14 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     backgroundColor: "palegreen",
     borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 7,
+    },
+    shadowOpacity: 0.43,
+    shadowRadius: 9.51,
+    elevation: 15,
   },
   imageContainer: {
     flex: 0.37,
@@ -152,7 +160,7 @@ const styles = StyleSheet.create({
   button: {
     flex: 1,
     flexDirection: "row",
-    backgroundColor: "dodgerblue",
+    backgroundColor: "lime",
     borderWidth: 1,
     borderRadius: 10,
   },
@@ -169,7 +177,7 @@ const styles = StyleSheet.create({
     paddingTop: 5,
   },
   buttonImage: {
-    flex: 0.4,
+    flex: 0.45,
     width: 30,
     height: 30,
     margin: 3,
